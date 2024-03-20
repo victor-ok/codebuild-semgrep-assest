@@ -8,7 +8,6 @@ phases:
     commands:
       - echo setting up Semgrep...
       - pip3 install semgrep
-      - semgrep login
       - semgrep ci
   build:
     commands:
